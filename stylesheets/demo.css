@@ -76,9 +76,13 @@ p.ref {
 	text-align: center;
 }
 .link a {
+	display: block;
 	font-size: 2em;
 	color: #FFEBEE;
 	text-align: center;
+}
+.link a:hover {
+	text-decoration: underline;	
 }
 .wrapper-box {
 	position:absolute;
